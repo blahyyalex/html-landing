@@ -1,0 +1,24 @@
+@media (min-width: 320px) {
+    .logo__img{
+        width:70%;
+        height:70%;
+    }
+}
+.header__container{
+    background-image: url(../img/header_background.webp);
+   width:100%;
+   height:100%;
+}
+
+@media (min-width: 500px) {
+.logo__img{
+    width:400px;
+    height: 70px;
+    }
+    .nav__menu{
+        float:  right;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+}
