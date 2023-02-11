@@ -17,7 +17,7 @@ img {
     --ui-dark-shade-color: #1b3a4f;
     --ui-light-accent-color: #15ddf8;
     --ui-light-shade-color: #fff;
-    --ui-link-color: #0983d5;
+    --ui-link-color: #ffffff;
     --ui-link-size: 20px;
     --ui-link-color-light: #3fa2e4;
     --ui-link-hover-color: #0983d5;
@@ -94,4 +94,21 @@ a {
 
 .dental-services-grid-item {
     display: grid;
+}
+h2{
+    text-align: center;
+}
+.sect-for-insurance-providers{
+    background-image: url(../img/insurance_background.png);
+    min-height: 400px;
+}
+.insurance-providers-flex-item{
+    background-color: #1b3a4f;
+    display: flex;
+    
+    
+}
+
+.insurance-providers-flex-item div{
+    margin: 20px 30px 20px 10px;
 }
