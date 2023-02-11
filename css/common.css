@@ -1,10 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+img {
+    display: block;
+    width: 100%;
+}
+
 :root {
-    --text-color: black;
+    --ui-brand-color: #10a3b7;
+    --ui-dark-accent-color: #0983d5;
+    --ui-dark-shade-color: #1b3a4f;
+    --ui-light-accent-color: #15ddf8;
+    --ui-light-shade-color: #fff;
+    --ui-link-color: #0983d5;
+    --ui-link-size: 20px;
+    --ui-link-color-light: #3fa2e4;
+    --ui-link-hover-color: #0983d5;
+    --ui-link-hover-color-light: #3fa2e4;
+    --ui-button-size-tablet: 14px;
+    --ui-button-size-mobile: 14px;
+    --ui-button-text-transform: none;
+    --ui-button-size: 14px;
+    --ui-button-font-family: "Poppins", sans-serif;
+    --ui-button-font-weight: 700;
+    --ui-button-font-style: normal;
+    --ui-text-font-family: "Poppins", sans-serif;
+    --ui-text-size: 16px;
+    --ui-text-color: #1b3a4f;
+    --ui-text-color-light: #fff;
+    --ui-text-font-style: normal;
+    --ui-text-text-decoration: none;
+    --ui-heading-font-weight: 600;
+    --ui-heading-font-family: "Poppins", sans-serif;
+    --ui-heading-size: 22px;
+    --ui-heading-color: #1b3a4f;
+    --ui-heading-color-light: #fff;
+    --ui-heading-font-style: normal;
+    --ui-heading-text-decoration: none;
 }
 
 /* .container {
@@ -12,7 +49,49 @@
     margin: auto;
 } */
 
-img {
-    display: block;
-    width: 100%;
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container__of-header {
+    background-image: url(../img/header_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 893px;
+}
+
+.florina-icon {
+    background-color: var(--ui-light-shade-color);
+
+}
+
+.big-text-under-logo h1 {
+    color: var(--ui-heading-color-light);
+    font-weight: 900;
+    
+}
+
+.text-under-h1 {
+    color: var(--ui-heading-color-light);
+    font-weight: 500;
+}
+.header-menu-div-flex{
+    display: flex; 
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;    
+}
+.sect-for-location-contacts-hours {
+    display: grid;
+
+}
+
+.dental-services-grid-item {
+    display: grid;
 }

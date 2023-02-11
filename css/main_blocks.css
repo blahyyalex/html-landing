@@ -1,0 +1,58 @@
+@media (min-width: 320px) {
+    .sect-for-location-contacts-hours{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .location-contacts-hours{
+        padding: 20px 10px 20px 10px;
+        margin:0 auto;
+       }
+    .dental-services-grid-item {
+
+        grid-template-columns: 1fr;
+    }
+}
+
+.services-items-photo {
+    width: 90%;
+
+}
+
+@media (min-width: 760px) {
+    .sect-for-location-contacts-hours{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .location-contacts-hours {
+        padding: 40px 10px 40px 10px;
+        margin: 0 auto;
+    }
+
+    .dental-services-grid-item {
+
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dental-services-item {
+        padding: 60px 10px 60px 10px;
+    }
+
+    .services-items-photo {
+        width: 80%;
+
+    }
+}
+
+@media (min-width: 990px) {
+    .sect-for-location-contacts-hours{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .dental_services-grid-item {
+
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .services-items-photo {
+        width: 90%;
+
+    }
+}
